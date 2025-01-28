@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.game-container {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #4CAF50;
+}
+
+#score {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+#gameArea {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-image: url('https://i.postimg.cc/8zB3H9v6/image.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.bubble {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url('https://i.postimg.cc/zBPF7SpW/soap-bubble-foam-hd-hyperreal-bubble-soap-bubbles-0f43dceb5ea9059b6f57f0960af14f97.png');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    animation: floatUp 2.7s ease-in infinite;
+}
+
+@keyframes floatUp {
+    0% { transform: translateY(300px); }
+    100% { transform: translateY(-300px); }
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
