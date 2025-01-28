@@ -14,7 +14,7 @@
 ## Technologies Used
 
 - **HTML5**: For the basic structure and layout.
-- **CSS3**: For styling, animations, and responsive design.
+- **CSS**: For styling, animations, and responsive design.
 - **JavaScript**: For game logic, bubble generation, and interaction.
 
 ## How to Play
@@ -24,13 +24,16 @@
 3. Enjoy the relaxing experience as more bubbles appear.
 4. Relax and enjoy the soothing sounds while popping bubbles!
 
+Click on the link to play the game: https://comforting-kataifi-4df9aa.netlify.app/
+
+
 ## Getting Started
 
 To play **Calming Bubble Pop**, follow these steps:
 
 1. Download or clone the repository:
    ```bash
-   git clone https://github.com/Mahatir-Ahmed-Tusher/calming-bubble-pop.git
+   git clone https://github.com/Mahatir-Ahmed-Tusher/Calming-Bubble-Pop.git
    ```
 2. Open the index.html file in any modern web browser.
 ## Features to Come
